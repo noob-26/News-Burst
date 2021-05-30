@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34585325489",
+    "project_id": "news-burst",
+    "storage_bucket": "news-burst.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34585325489:android:066e1c64c2269e6066d790",
+        "android_client_info": {
+          "package_name": "com.souraprabha.newsburst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34585325489-kpqsdtq1dgdnr4f4t0nbioimc8o11c0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZPEThQTHuujYlse9AHue5aS--bTrBkyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34585325489-kpqsdtq1dgdnr4f4t0nbioimc8o11c0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

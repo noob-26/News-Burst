@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/headlinesFragment2">
+
+    <fragment
+        android:id="@+id/headlinesFragment2"
+        android:name="com.souraprabha.newsburst.fragments.HeadlinesFragment"
+        android:label="fragment_headlines"
+        tools:layout="@layout/fragment_headlines" />
+    <fragment
+        android:id="@+id/healthFragment2"
+        android:name="com.souraprabha.newsburst.fragments.HealthFragment"
+        android:label="fragment_health"
+        tools:layout="@layout/fragment_health" />
+    <fragment
+        android:id="@+id/sportsFragment2"
+        android:name="com.souraprabha.newsburst.fragments.SportsFragment"
+        android:label="fragment_sports"
+        tools:layout="@layout/fragment_sports" />
+    <fragment
+        android:id="@+id/entertainmentFragment2"
+        android:name="com.souraprabha.newsburst.fragments.NewsFragment"
+        android:label="fragment_entertainment"
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_entertainmentFragment2_to_newsDisplayFragment"
+            app:destination="@id/newsDisplayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/technologyFragment2"
+        android:name="com.souraprabha.newsburst.fragments.TechnologyFragment"
+        android:label="fragment_technology"
+        tools:layout="@layout/fragment_technology" />
+    <fragment
+        android:id="@+id/newsDisplayFragment"
+        android:name="com.souraprabha.newsburst.NewsDisplayFragment"
+        android:label="fragment_news_display"
+        tools:layout="@layout/fragment_news_display" >
+        <argument
+            android:name="link"
+            app:argType="string" />
+    </fragment>
+</navigation>
