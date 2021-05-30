@@ -2,7 +2,7 @@
 
 An Android app where users can stay updated about the latest headlines and latest news in technology, health and sports , as well as look for news articles from various agencies.
 
-<a href="https://drive.google.com/file/d/1YpZzm3oc2kWXzTghf-Se_U0jpdXMfrTJ/view?usp=sharing">Click here to download</a>
+<a href="https://drive.google.com/file/d/117t3m_0xPjvMuQIeo4MiJR7DbZUXksWd/view?usp=sharing">Click here to download</a>
 
 Programming Language used - <a href="https://kotlinlang.org/">Kotlin</a>
 </br>
